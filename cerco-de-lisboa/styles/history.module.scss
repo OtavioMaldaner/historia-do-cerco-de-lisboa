@@ -1,0 +1,40 @@
+@import "./globals.scss";
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    font-family: $mainFont;
+    .mainUtil {
+        width: 100%;
+        max-width: $maxSize;
+        min-width: $mobileS;
+        height: 100%;
+        padding: 50px;
+
+        @media (max-width: $mobileL) {
+            padding: 50px 25px;
+        }
+
+        @media (min-width: $laptopL) {
+            padding: 50px 0;
+        }
+
+        .title, .subtitle {
+            font-family: $secondaryFont;
+        }
+
+        .subtitle {
+            margin-top: 30px;
+        }
+
+        .content {
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            text-align: justify;
+        }
+    }
+}

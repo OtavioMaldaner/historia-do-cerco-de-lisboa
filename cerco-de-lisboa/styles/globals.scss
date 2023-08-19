@@ -1,0 +1,45 @@
+// Screen break sizes
+$mobileS: 320px;
+$mobileM: 375px;
+$mobileL: 425px;
+$tablet: 768px;
+$laptop: 1024px;
+$laptopL: 1440px;
+$maxSize: 1200px;
+
+// Fonts
+$mainFont: "Roboto", sans-serif;
+$secondaryFont: "Nunito", sans-serif;
+
+// Font sizes
+$desktopTitle: 32px;
+$desktopSubtitle: 29px;
+$desktopText: 25px;
+$mobileTitle: 27px;
+$mobileSubtitle: 24px;
+$mobileText: 20px;
+
+// Exporting global variables
+:export {
+    // Colors
+
+    // Screen break sizes
+    mobileS: $mobileS;
+    mobileM: $mobileM;
+    mobileL: $mobileL;
+    tablet: $tablet;
+    laptop: $laptop;
+    laptopL: $laptopL;
+
+    // Fonts
+    mainFont: $mainFont;
+    secondaryFont: $secondaryFont;
+
+    // Font sizes
+    desktopTitle: $desktopTitle;
+    desktopSubtitle: $desktopSubtitle;
+    desktopText: $desktopText;
+    mobileTitle: $mobileTitle;
+    mobileSubtitle: $mobileSubtitle;
+    mobileText: $mobileText;
+}
