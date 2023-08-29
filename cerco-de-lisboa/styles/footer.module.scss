@@ -13,6 +13,12 @@
 
     .footerUtil {
         padding: 20px;
+
+        .icons {
+            display: flex;
+            gap: 24px;
+            padding-bottom: 20px;
+        }
     }
 
 }
