@@ -1,0 +1,18 @@
+@import './globals.scss';
+.footer {
+    background: rgb(26, 26, 26, .4);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 80px;
+
+    @media (max-width: 712px) {
+        flex-direction: column;
+    }
+
+    .footerUtil {
+        padding: 20px;
+    }
+
+}
