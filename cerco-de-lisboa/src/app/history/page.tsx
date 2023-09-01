@@ -11,7 +11,7 @@ const History = () => {
                 <h2 className={styles.title}>A História</h2>
                 <div className={styles.content}>
                     <p>A História do Cerco de Lisboa é um romance escrito por <Link href={'/author'}>José Saramago</Link>, publicado em 1989. </p>
-                    <p>A obra deu maior destaque à prosa na língua portuguesa, o que ajudou o autor a ganhar prêmios importantes, como o <a href="https://pt.wikipedia.org/wiki/Prémio_Camões" target="_blank">"Prêmio Camões"</a> em 1995 e o <a href="https://pt.wikipedia.org/wiki/Laureados_com_o_Nobel_de_Literatura" target="_blank">"Prêmio Nobel de Literatura"</a>, em 1998</p>
+                    <p>A obra deu maior destaque à prosa na língua portuguesa, o que ajudou o autor a ganhar prêmios importantes, como o <Link href="https://pt.wikipedia.org/wiki/Prémio_Camões" target="_blank">"Prêmio Camões"</Link> em 1995 e o <Link href="https://pt.wikipedia.org/wiki/Laureados_com_o_Nobel_de_Literatura" target="_blank">"Prêmio Nobel de Literatura"</Link>, em 1998</p>
                 </div>
                 <h2 className={styles.subtitle}>Sinopse</h2>
                 <div className={styles.content}>
@@ -30,8 +30,8 @@ const History = () => {
                     <div className={styles.buyRightPart}>
                         <h2 className={styles.subtitle}>Para adquirir:</h2>
                         <ul>
-                            <li><a href="https://www.amazon.com.br/História-cerco-Lisboa-José-Saramago/dp/8535918752/" target="_blank">Compra na Amazon</a></li>
-                            <li><a href="../book/historia-do-cerco-de-lisboa.pdf">Leitura do PDF</a></li>
+                            <li><Link href="https://www.amazon.com.br/História-cerco-Lisboa-José-Saramago/dp/8535918752/" target="_blank">Compra na Amazon</Link></li>
+                            <li><Link href='https://drive.google.com/file/d/1O9g4H2tTe_OJKd99BpTlK3X3BLaRGeY1/view?usp=sharing'>Leitura do PDF</Link></li>
                         </ul>
                     </div>
                 </div>

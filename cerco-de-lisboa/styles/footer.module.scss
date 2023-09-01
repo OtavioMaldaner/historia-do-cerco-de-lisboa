@@ -1,6 +1,6 @@
-@import './globals.scss';
+@import "./globals.scss";
 .footer {
-    background: rgb(26, 26, 26, .4);
+    background: rgb(26, 26, 26, 0.4);
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -18,7 +18,53 @@
             display: flex;
             gap: 24px;
             padding-bottom: 20px;
+
+            .icon {
+                cursor: pointer;
+                color: rgb(87, 87, 87);
+                transition: all ease 0.2s;
+                font-size: x-large;
+
+                &:hover {
+                    color: white;
+                }
+            }
         }
     }
 
+    .content {
+        padding: 20px;
+
+        ul {
+            li {
+                list-style: none;
+                a {
+                    color: rgb(87, 87, 87);
+                    font-size: medium; 
+                    padding-bottom: 8px;
+                    font-weight: bolder;
+                    transition: all ease .2s;
+
+                    &:hover {
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+.bottomPart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background: rgb(26, 26, 26, 0.6);
+
+    h1 {
+        color: rgb(87, 87, 87);
+        font-weight: bolder;
+        font-size: large;
+    }
 }
