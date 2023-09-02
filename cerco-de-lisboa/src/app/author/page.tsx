@@ -1,7 +1,7 @@
 import { Analytics } from "@vercel/analytics/react";
-import styles from '../../../styles/author.module.scss';
-import Link from "next/link";
 import Image from "next/image";
+import Link from "next/link";
+import styles from '../../../styles/author.module.scss';
 import saramago from '../assets/images/JSJoseSaramago.jpg';
 
 const Author = () => {
@@ -17,7 +17,6 @@ const Author = () => {
                         <p>A origem do seu apelido se remete à alcunha da família, Saramago, que é uma herbácea que nasce na região de Golegã. Na data de seu registro, houve um equívoco e o registrador acabou preenchendo o nome de José com a alcunha que era conhecida a família</p>
                         <p>Desde cedo se dedicava aos estudos e a cultura, no entanto, a dificuldade econômica o impediu de fazer faculdade particular. Então, José se formou em uma escola técnica e conseguiu seu primeiro emprego, como serralheiro.</p>
                     </div>
-                    {/* <p>Saramago foi responsável pelo efetivo reconhecimento da língua portuguesa.</p> */}
                 </div>
                 <h3 className={styles.subtitle}>Carreira profissional e literária</h3>
                 <div className={styles.content}>

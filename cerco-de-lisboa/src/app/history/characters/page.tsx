@@ -2,9 +2,12 @@ import { Analytics } from "@vercel/analytics/react";
 
 const Characters = () => {
     return (
-        <div>
+        <main>
+            <div>
+                
+            </div>
             <Analytics />
-        </div>
+        </main>
     )
 }
 export default Characters;

@@ -1,5 +1,5 @@
-import styles from './page.module.css'
 import { Analytics } from '@vercel/analytics/react'
+import styles from './page.module.css'
 
 export default function Home() {
     return (

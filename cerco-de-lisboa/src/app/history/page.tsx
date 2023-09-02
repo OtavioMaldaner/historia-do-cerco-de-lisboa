@@ -1,7 +1,7 @@
 import { Analytics } from "@vercel/analytics/react";
-import styles from '../../../styles/history.module.scss';
-import Link from "next/link";
 import Image from "next/image";
+import Link from "next/link";
+import styles from '../../../styles/history.module.scss';
 import capa from '../assets/images/cerco de lisboa.jpg';
 
 const History = () => {

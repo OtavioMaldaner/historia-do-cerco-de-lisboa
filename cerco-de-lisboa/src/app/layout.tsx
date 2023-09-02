@@ -1,8 +1,8 @@
-import './globals.css'
-import type { Metadata } from 'next'
-import { Roboto_Flex as Roboto, Nunito } from 'next/font/google';
-import Header from './components/Header';
+import type { Metadata } from 'next';
+import { Nunito, Roboto_Flex as Roboto } from 'next/font/google';
 import Footer from './components/Footer';
+import Header from './components/Header';
+import './globals.css';
 
 const roboto = Roboto({ subsets: ['latin'] })
 const nunito = Nunito({ subsets: ['latin'] })
