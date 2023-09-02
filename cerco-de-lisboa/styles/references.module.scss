@@ -22,12 +22,18 @@
         background-color: white;
         color: black;
     }
+
     .mainUtil {
         width: 100%;
         max-width: $maxSize;
         min-width: $mobileS;
         height: 100%;
+        // padding: 50px;
         padding: 75px 25px 50px 25px;
+
+        // @media (max-width: $mobileL) {
+        // }
+
         @media (min-width: $laptopL) {
             padding-top: 75px;
             padding: 75px 0 50px 0;
@@ -48,6 +54,18 @@
             flex-direction: column;
             gap: 15px;
             text-align: justify;
+
+            ul {
+                padding-left: 15px;
+            }
+            img {
+                border-radius: 10px;
+            }
+        }
+        .imageBox {
+            width: 100%;
+            align-items: center;
+            justify-content: center;
         }
     }
 }
