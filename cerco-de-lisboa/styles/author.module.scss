@@ -54,6 +54,42 @@
             flex-direction: column;
             gap: 15px;
             text-align: justify;
+
+            ul {
+                padding-left: 15px;
+            }
+        }
+        .obras {
+            flex-wrap: wrap;
+            flex-direction: unset;
+            gap: 30px;
+
+            .title {
+                margin: 15px 0;
+            }
+            div {
+                width: fit-content;
+                a {
+                    width: fit-content;
+                }
+            }
+        }
+
+        .saramago {
+            flex-direction: row;
+            @media (max-width: $tablet) {
+                flex-direction: column;
+                align-items: center;
+            }
+            img {
+                border-radius: 5px;
+            }
+            div {
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                text-align: justify;
+            }
         }
     }
 }

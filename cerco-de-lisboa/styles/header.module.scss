@@ -12,14 +12,17 @@
     backdrop-filter: blur(3px);
     filter: saturate(1.5);
     cursor: pointer;
+    justify-content: center;
 
     .mainHeaderUtil {
-        min-width: 320px;
+        min-width: $mobileS;
         width: 100%;
+        max-width: $maxSize;
         display: flex;
         align-items: center;
         justify-content: space-between;
         padding: 0 8%;
+        padding: 0;
         flex-wrap: wrap;
         width: 100%;
         
