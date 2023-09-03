@@ -38,6 +38,7 @@ $imageSize: 800px;
             .title {
                 font-family: "__Sacramento_5609c3";
                 font-size: 55px;
+                text-align: center;
 
                 @media (max-width: 425px) {
                     font-size: 33px;
@@ -55,11 +56,12 @@ $imageSize: 800px;
         }
         span {
             position: absolute;
+            text-align: center;
             font-family: "__Sacramento_5609c3";
-            bottom: 2.5%;
-            font-size: 30px;
+            bottom: 0;
+            font-size: 35px;
             @media (max-width: 425px) {
-                font-size: 20px;
+                font-size: 25px;
             }
         }
     }

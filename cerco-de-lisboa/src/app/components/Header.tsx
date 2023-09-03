@@ -64,22 +64,64 @@ const Header = () => {
                 <nav className={styles.headerNav}>
                     <ul>
                         <li>
-                            <Link href="/">Home</Link>
+                            <Link
+                                href="/"
+                                onClick={() => {
+                                    setOpen(false);
+                                }}
+                            >
+                                Home
+                            </Link>
                         </li>
                         <li>
-                            <Link href="/author">Autor</Link>
+                            <Link
+                                href="/author"
+                                onClick={() => {
+                                    setOpen(false);
+                                }}
+                            >
+                                Autor
+                            </Link>
                         </li>
                         <li>
-                            <Link href="/history">História</Link>
+                            <Link
+                                href="/history"
+                                onClick={() => {
+                                    setOpen(false);
+                                }}
+                            >
+                                História
+                            </Link>
                         </li>
                         <li>
-                            <Link href="/history/characters">Personagens</Link>
+                            <Link
+                                href="/history/characters"
+                                onClick={() => {
+                                    setOpen(false);
+                                }}
+                            >
+                                Personagens
+                            </Link>
                         </li>
                         <li>
-                            <Link href="/opinions">Opiniões</Link>
+                            <Link
+                                href="/opinions"
+                                onClick={() => {
+                                    setOpen(false);
+                                }}
+                            >
+                                Opiniões
+                            </Link>
                         </li>
                         <li>
-                            <Link href="/references">Referências</Link>
+                            <Link
+                                href="/references"
+                                onClick={() => {
+                                    setOpen(false);
+                                }}
+                            >
+                                Referências
+                            </Link>
                         </li>
                     </ul>
                 </nav>
