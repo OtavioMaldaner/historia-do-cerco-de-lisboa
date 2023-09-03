@@ -6,6 +6,7 @@
     justify-content: space-around;
     align-items: flex-start;
     padding: 80px;
+    font-family: $mainFont;
 
     @media (max-width: 712px) {
         flex-direction: column;
@@ -40,10 +41,10 @@
                 list-style: none;
                 a {
                     color: rgb(87, 87, 87);
-                    font-size: medium; 
+                    font-size: medium;
                     padding-bottom: 8px;
                     font-weight: bolder;
-                    transition: all ease .2s;
+                    transition: all ease 0.2s;
 
                     &:hover {
                         color: white;
@@ -61,6 +62,7 @@
     text-align: center;
     padding: 20px;
     background: rgb(26, 26, 26, 0.6);
+    font-family: $mainFont;
 
     h1 {
         color: rgb(87, 87, 87);

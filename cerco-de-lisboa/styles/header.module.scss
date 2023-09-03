@@ -7,7 +7,7 @@
     width: 100%;
     height: 50px;
     background: rgb(26, 26, 26, 0.9);
-    box-shadow: 0 5px 15px 10px black;
+    box-shadow: 0 -3px 15px 10px black;
     transition: background 0.08s cubic-bezier(0.4, 0, 0.6, 1);
     backdrop-filter: blur(3px);
     filter: saturate(1.5);
@@ -25,11 +25,10 @@
         padding: 0;
         flex-wrap: wrap;
         width: 100%;
-        
+
         @media (max-width: 1200px) {
             max-width: 1200px;
             margin: 0 auto;
-            
         }
 
         img {
@@ -72,6 +71,7 @@
 
                 span {
                     font-size: 12px;
+                    font-family: $secondaryFont;
                 }
             }
         }
@@ -90,13 +90,13 @@
                 display: flex;
                 align-items: center;
             }
-            
+
             ul {
                 width: 100%;
                 font-size: 16px;
                 color: white;
                 display: flex;
-                
+
                 @media (min-width: 1200px) {
                     display: flex;
                     justify-content: space-between;
@@ -109,11 +109,11 @@
                         @media (min-width: 1200px) {
                             padding: 8px 20px;
                         }
-                        transition: all ease .3s;
+                        transition: all ease 0.3s;
                         font-weight: bold;
 
                         &:hover {
-                            opacity: .7;
+                            opacity: 0.7;
                         }
                     }
                 }

@@ -1,4 +1,5 @@
 @import "./globals.scss";
+$imageSize: 800px;
 .main {
     display: flex;
     align-items: center;
@@ -6,6 +7,62 @@
     width: 100%;
     height: 100%;
     font-family: $mainFont;
+
+    .homeImage {
+        height: 1000px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @media (max-width: 425px) {
+            height: $imageSize;
+        }
+
+        img {
+            width: 100%;
+            object-fit: cover;
+            position: relative;
+            height: 1000px;
+
+            @media (max-width: 425px) {
+                height: $imageSize;
+            }
+        }
+
+        div {
+            position: absolute;
+            top: 30%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .title {
+                font-family: "__Sacramento_5609c3";
+                font-size: 55px;
+
+                @media (max-width: 425px) {
+                    font-size: 33px;
+                }
+            }
+
+            .subtitle {
+                font-family: "__Sacramento_5609c3";
+                font-size: 24px;
+
+                @media (max-width: 425px) {
+                    font-size: 20px;
+                }
+            }
+        }
+        span {
+            position: absolute;
+            font-family: "__Sacramento_5609c3";
+            bottom: 2.5%;
+            font-size: 30px;
+            @media (max-width: 425px) {
+                font-size: 20px;
+            }
+        }
+    }
 
     .mainUtil {
         width: 100%;
@@ -39,13 +96,6 @@
             text-align: justify;
             flex-wrap: wrap;
             justify-content: center;
-
-            ul {
-                padding-left: 15px;
-            }
-            img {
-                border-radius: 10px;
-            }
         }
     }
 }
