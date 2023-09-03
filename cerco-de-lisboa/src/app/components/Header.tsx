@@ -29,11 +29,35 @@ const Header = () => {
                         </div>
                     </div>
                     <FiMenu
-                        clasName={styles.menuIcon}
+                        className={styles.menuIcon}
                         onClick={() => {
                             setOpen(!open);
                         }}
                     />
+                    <nav className={styles.desktopHeaderNav}>
+                        <ul>
+                            <li>
+                                <Link href="/">Home</Link>
+                            </li>
+                            <li>
+                                <Link href="/author">Autor</Link>
+                            </li>
+                            <li>
+                                <Link href="/history">História</Link>
+                            </li>
+                            <li>
+                                <Link href="/history/characters">
+                                    Personagens
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/opinions">Opiniões</Link>
+                            </li>
+                            <li>
+                                <Link href="/references">Referências</Link>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
             </header>
             {open && (
