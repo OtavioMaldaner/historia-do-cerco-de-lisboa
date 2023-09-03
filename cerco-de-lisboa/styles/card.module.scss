@@ -1,0 +1,63 @@
+@import "./globals.scss";
+/*   color variables */
+$clr-primary: #d50000;
+$clr-primary-hover: #29e6a7;
+$clr-primary-dark: #039d69;
+$clr-gray100: #f9fbff;
+$clr-gray150: #f4f6fb;
+$clr-gray200: #eef1f6;
+$clr-gray300: #e1e5ee;
+$clr-gray400: #767b91;
+$clr-gray500: #4f546c;
+$clr-gray600: #2a324b;
+$clr-gray700: #161d34;
+
+/*   border radius */
+$radius: 15px;
+.card {
+    overflow: hidden;
+    border-radius: $radius;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: transform 0.2s ease-in;
+    max-width: 300px;
+    background-color: #0a0a0a;
+    width: 100%;
+
+    div {
+        .image {
+            width: 100%;
+            object-fit: cover;
+            height: 192px;
+        }
+        .title {
+            padding: 16px;
+            color: white;
+        }
+        .description {
+            padding: 0 16px;
+            color: #ffffff80;
+        }
+    }
+
+    .button {
+        padding: 8px 16px;
+        font-family: $secondaryFont;
+        font-weight: bold;
+        font-size: 16px;
+        margin: 16px;
+        cursor: pointer;
+        background: #007225;
+        color: white;
+        border-radius: 50px;
+        max-width: 30%;
+        margin-left: 35%;
+        border: none;
+        transition: all ease 0.2s;
+        &:hover {
+            transform: translateY(-4px);
+        }
+    }
+}
